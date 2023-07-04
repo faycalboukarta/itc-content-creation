@@ -7,7 +7,11 @@ menu.addEventListener("click", () => {
   menu.classList.toggle("active");
   header.classList.toggle("btn-active")
 });
-
+let removeNav = function(){
+  barre.classList.toggle("active");
+  menu.classList.toggle("active");
+  header.classList.toggle("btn-active");
+}
 // set up text to print, each item in array is new line
 var aText = new Array(
   "A national competition for Algerian young talents",
