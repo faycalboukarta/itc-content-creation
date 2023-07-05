@@ -542,7 +542,7 @@ nav ul li a:hover {
   width: 100%;
   height: fit-content;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   place-items: center;
   margin-top: 80px;
   gap: 60px;
